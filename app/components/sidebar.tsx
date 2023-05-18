@@ -100,7 +100,7 @@ export function SideBar(props: { className?: string }) {
         <div className={styles["sidebar-title"]}>AI研究所-企业级</div>
         <div className={styles["sidebar-sub-title"]} style={{ margin: '10px 0' }}>
           {/* lh */}
-          <a style={{ textDecoration: 'none' }} href='https://s.pdb2.com/pages/20230510/cn8G6Qc2T17P8gE.html'>欢迎使用ChatGPT,点击我加入AI交流群.</a>
+          <a style={{ textDecoration: 'none' }} href='https://s.pdb2.com/pages/20230518/1NrjjCa7OCpOqh2.html'>欢迎使用ChatGPT,点击我加入AI交流群.</a>
         </div>
         <div className={styles["sidebar-sub-title"]} style={{ margin: '10px 0' }}>
           <a style={{ textDecoration: 'none' }} href='https://mp.weixin.qq.com/s/V07P7Ms0ZuwioWJ9R2KlIQ'>点击我查看使用技巧.</a>
