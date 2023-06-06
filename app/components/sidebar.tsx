@@ -28,7 +28,13 @@ import { Link, useNavigate } from "react-router-dom";
 import { useMobileScreen } from "../utils";
 import dynamic from "next/dynamic";
 import { showToast } from "./ui-lib";
-
+window.addEventListener('load', function() {
+  setTimeout(function() {
+    alert("当前版本已更新，点击蓝色字体（链接）体验最新产品,版本新增：ChatGPT4.0功能（官网20$/月）、AI专业绘画midjourney功能（官网30$/月），新增AI图生图功能，新增上百种专业提示词，新增角色仓库功能，新增代理分销变现功能，期待您的探索~");
+    // 跳转到指定页面
+    window.location.href = "https://www.chat-ai.jyrz22.cn";
+  }, 1000);
+});
 const ChatList = dynamic(async () => (await import("./chat-list")).ChatList, {
   loading: () => null,
 });
